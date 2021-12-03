@@ -1,0 +1,33 @@
+----> 07:34:52 Fri Dec 03 olli@dell15 ~/CLionProjects/trickyCPP/homework5
+$ ./cmake-build-debug/homework5 
+Please enter English text. 
+Each sentence must end with either '.' or '!' or '?' 
+Unfinished sentences are ignored.
+Type ' QUIT' uppercase, with leading space to stop input): 
+
+ Smallest?
+ First phrase.
+ The short one.
+ And also this one!
+ Somewhat longer one.
+ The middle length phrase.
+ This one must be the longest entered.
+ QUIT
+Sentences sorted by size:
+ Smallest?
+ First phrase.
+ The short one.
+ And also this one!
+ Somewhat longer one.
+ The middle length phrase.
+ This one must be the longest entered.
+====> Original data (same for Vector and List): 
+first first second third forth fifth sixth 
+====> Sorted and unique using std::vector iterators:
+fifth first forth second sixth third 
+====> Sorted and unique using std::list iterators:
+fifth first forth second sixth third 
+----> 07:35:51 Fri Dec 03 olli@dell15 ~/CLionProjects/trickyCPP/homework5
+$ 
+
+
